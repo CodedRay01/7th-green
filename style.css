@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "quicksand" ;
+}
+.mess {
+    background-color: #333;
+    color: white;
+
+}
+header {
+    height:auto;
+    width:100%;
+    background-color:#272626;
+    border-bottom: 1vw solid grey;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2vw;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-captain {
+    background-image: url(/7th-green/images/captain.png);
+    background-size:cover ;
+    height:8.5vw;
+    width: 8.5vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 2vw;  
+}
+.profile-dev {
+    background-image: url(/7th-green/images/dev.avif);
+    background-size:cover ;
+    height:8.5vw;
+    width: 8.5vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 2vw;  
+}
+.profile-wk {
+    background-image: url(/7th-green/images/wk.jpg);
+    background-size:cover ;
+    height:8.5vw;
+    width: 8.5vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 2vw;  
+}
+.logo-sjs {
+    height: 60px;
+    width: 60px;
+    background-image: url('/7th-green/images/sjs.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    border: 0.5vw solid grey;
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+}
+.logo-cricket {
+    height: 15vw;
+    width: 15vw;
+    background-image: url(/7th-green/players/cricket.webp);
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    border: 0.01px solid transparent;
+    border-radius: 50%;
+    margin-left: 4vw;
+}
+.home, .about,.logout {
+height: 25px;
+/* border: 2px solid grey; */
+padding: 5px;
+padding-bottom: 9px;
+border-radius: 40%;
+}
+.home:hover {
+ background-color: rgba(128, 128, 128, 0.363);
+    }
+    .about:hover {
+        background-color: rgba(128, 128, 128, 0.363);
+           }
+           .logout:hover {
+            background-color: rgba(128, 128, 128, 0.363);
+               }
+.cont-parent {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #333;
+border-top:1px solid grey ;
+padding: 5px;
+}
+.head-text {
+    width: fit-content;
+    height: fit-content;
+    font-size: 40px;
+        font-family: "Bungee Spice";
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+.header1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.parent-text.team {
+    display: flex;
+    justify-content: center;
+}
+.text-team {
+
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+background-color:grey;
+  width: 95%;
+  border-radius: 5px;
+  padding: 2vw;
+  margin: 5vw;
+  border: 2px solid grey;
+}
+.text-team:hover {
+    background-color: #333;
+    border: 2px solid grey;
+}
+.parent-text-team {
+    display: flex;
+    justify-content: center;
+  
+}
+.players {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #ffffff; */
+    border: 2px solid grey;
+    padding: 2vw;
+    width: 95%;
+    border-radius: 3vw;
+    margin-bottom: 4vw;
+color: white;
+margin-right: 2vw;
+margin-left: 2vw;
+}
+.players:hover {
+        background-color: rgba(128, 128, 128, 0.167);
+}
+
+.profile-logo {
+        background-image: url(/7th-green/images/profile.jpg);
+        background-size:cover ;
+        height:8.5vw;
+        width: 8.5vw;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-left: 2vw;  
+}
+.player-name a {
+    font-size:4vw;
+    font-weight: 800;
+    margin-left: 3vw;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
+.player-type {
+
+    font-style: normal;
+    margin-left: 2.5vw;
+    color:grey;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.player-n {
+    font-style: normal;
+    margin-left: 4vw;
+    margin-right: 1vw;
+    font-weight: 600;
+    font-size: 4vw;
+    color: white;
+}
+.player {
+    display: flex;
+  
+}
+.parent-player {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: 2vw;
+    padding-top:4vw ;
+    padding-bottom: 4vw;
+    margin-top: 5vw;    
+    
+   }
+   footer {
+    width: 100%;
+    margin-top: 15vw;
+  }
+   footer a  {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman';
+   }
+  
+footer p {
+    color: grey;
+    font-family: 'Times New Roman';
+}
+/* players */
+.container-buttons {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5vw;
+}
+.btn-01 {
+  border: 2px solid grey;
+border-radius: 1vw;
+padding: 3vw;
+padding-right:10vw ;
+margin-bottom: 5vw;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+color: grey;
+}
+.btn-01:hover {
+    background-color:rgba(128, 128, 128, 0.596);
+    border: 2px solid whitesmoke;
+    color: wheat;
+}
+.icon img {
+   border-radius: 0.7vw;
+   margin-right: 4vw;
+   object-fit: cover;
+}
+.details {
+    border: 2px solid grey;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:white;
+    margin: 6vw;
+    padding: 2vw;
+    line-height: 2;
+}
+.details:hover {
+color: white;
+border-color: white;
+}
+body {
+    background-color:#333;
+}
